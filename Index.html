@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Adrian Lorenzo Sidharta - 2nd Semester Computer Science Student specializing in Data Science">
+    <title>Adrian Lorenzo Sidharta | Data Science & CS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="Home">
+                Adrian<span class="gradient-text">LS</span>
+            </a>
+            
+            <button 
+                class="mobile-menu-toggle" 
+                id="mobile-menu-toggle"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span class="hamburger-line" aria-hidden="true"></span>
+                <span class="hamburger-line" aria-hidden="true"></span>
+                <span class="hamburger-line" aria-hidden="true"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links" role="menubar">
+                <li role="none">
+                    <a href="#home" class="nav-link" role="menuitem">
+                        <i class="fas fa-home" aria-hidden="true"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="#about" class="nav-link" role="menuitem">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="#projects" class="nav-link" role="menuitem">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <button 
+                class="theme-toggle" 
+                id="theme-toggle"
+                aria-label="Toggle dark mode"
+                aria-pressed="false"
+            >
+                <i class="fas fa-sun" id="theme-icon" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero section-fade" aria-labelledby="hero-heading">
+            <div class="container text-center">
+                <span class="badge">2nd Semester CS Student</span>
+                
+                <h1 id="hero-heading" class="hero-title">
+                    Data Meets <span class="gradient-text">Insight.</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Aspiring Computer Science major exploring the world of Data Science. 
+                    Bridging the gap between raw data and meaningful predictions.
+                </p>
+                
+                <div class="button-group">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get in Touch</span>
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="social-links" aria-label="Social media links">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:adrian@example.com" aria-label="Send Email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-fade" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <div class="image-placeholder" role="img" aria-label="Adrian Lorenzo Sidharta - CS Student and Data Enthusiast">
+                                <span class="initials">ALS</span>
+                                <p>CS Student & Data Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <h2 id="about-heading" class="section-title">
+                            The Analyst Behind the <span class="gradient-text">Data</span>
+                        </h2>
+                        
+                        <div class="about-text">
+                            <p>
+                                As a Computer Science major, I find profound beauty in the patterns hidden within data. 
+                                The ability to <strong>predict trends</strong> and <strong>analyze complex datasets</strong> to drive 
+                                meaningful decisions is what fuels my passion for this field.
+                            </p>
+                            <p>
+                                Currently in my 2nd semester, I'm building a strong foundation in programming while 
+                                diving deep into statistical analysis and machine learning concepts. I believe that 
+                                data tells stories, and my goal is to become fluent in reading them.
+                            </p>
+                            <p>
+                                Beyond the algorithms, I value clear communication and collaborative problem-solving—
+                                essential skills for transforming technical insights into real-world impact.
+                            </p>
+                        </div>
+
+                        <div class="skills" aria-label="Technical skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Statistics</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+
+                        <button class="btn btn-secondary" id="resume-btn">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>Download Resume</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-fade" aria-labelledby="projects-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="projects-heading" class="section-title">
+                        Development <span class="gradient-text">Journey</span>
+                    </h2>
+                    <p class="section-description">
+                        Currently building my portfolio. Here are the types of projects I'm working on and planning to develop 
+                        as I progress through my data science journey.
+                    </p>
+                </header>
+
+                <div class="projects-grid" role="list">
+                    <article class="project-card" role="listitem" tabindex="0" data-project="data-analysis">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="project-title">Data Analysis Project</h3>
+                        <h4 class="project-subtitle">Exploratory Data Analysis</h4>
+                        <p class="project-description">
+                            A comprehensive study of real-world datasets using Python (Pandas, NumPy, Matplotlib) 
+                            to uncover patterns and generate actionable insights.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View source code for Data Analysis Project">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span>Source Code</span>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View live demo of Data Analysis Project">
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" role="listitem" tabindex="0" data-project="ml-model">
+                        <div class="project-icon">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="project-title">ML Prediction Model</h3>
+                        <h4 class="project-subtitle">Predictive Analytics</h4>
+                        <p class="project-description">
+                            Machine learning model designed to make predictions based on historical data, 
+                            featuring data preprocessing and model evaluation metrics.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Regression</span>
+                            <span class="tag">Jupyter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View source code for ML Prediction Model">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span>Source Code</span>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View live demo of ML Prediction Model">
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" role="listitem" tabindex="0" data-project="data-viz">
+                        <div class="project-icon">
+                            <i class="fas fa-project-diagram" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="project-title">Data Visualization</h3>
+                        <h4 class="project-subtitle">Interactive Dashboard</h4>
+                        <p class="project-description">
+                            Interactive web-based dashboard for real-time data visualization, 
+                            making complex datasets accessible through intuitive visual storytelling.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Web Dev</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View source code for Data Visualization">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span>Source Code</span>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View live demo of Data Visualization">
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="coming-soon">
+                    <i class="fas fa-code-branch" aria-hidden="true"></i>
+                    <span>More projects coming soon as I progress through my journey!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-fade" aria-labelledby="contact-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="contact-heading" class="section-title">
+                        Get in <span class="gradient-text">Touch</span>
+                    </h2>
+                    <p class="section-description">Have a question or want to collaborate? I'd love to hear from you.</p>
+                </header>
+
+                <form 
+                    id="contact-form" 
+                    class="contact-form" 
+                    novalidate
+                    aria-label="Contact form"
+                >
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            class="form-input" 
+                            placeholder="Your Name"
+                            required
+                            aria-required="true"
+                            aria-describedby="name-error"
+                        >
+                        <span class="error-message" id="name-error" role="alert" aria-live="polite"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form-input" 
+                            placeholder="adrian@example.com"
+                            required
+                            aria-required="true"
+                            aria-describedby="email-error"
+                        >
+                        <span class="error-message" id="email-error" role="alert" aria-live="polite"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form-input form-textarea" 
+                            rows="4" 
+                            placeholder="Let's discuss data, code, or potential collaborations..."
+                            required
+                            aria-required="true"
+                            aria-describedby="message-error"
+                        ></textarea>
+                        <span class="error-message" id="message-error" role="alert" aria-live="polite"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                    </button>
+                </form>
+
+                <div class="contact-links" aria-label="Alternative contact methods">
+                    <a href="mailto:adrian@example.com" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Adrian Lorenzo Sidharta. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div 
+        id="toast" 
+        class="toast" 
+        role="status" 
+        aria-live="polite" 
+        aria-atomic="true"
+    >
+        <i class="fas fa-info-circle" aria-hidden="true"></i>
+        <span id="toast-message"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
